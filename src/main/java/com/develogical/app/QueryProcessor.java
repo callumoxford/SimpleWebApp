@@ -13,6 +13,9 @@ public class QueryProcessor {
         else if(query.toLowerCase().contains("murakami")){
             return "Haruki Murakami is a Japanese writer. His books and stories have been bestsellers in Japan as well as internationally, with his work being translated into 50 languages and selling millions of copies outside his native country.";
         }
+        else if(query.toLowerCase().contains("Harrison")){
+            return "Josh Harrison. Legend.";
+        }
         return "";
     }
 }

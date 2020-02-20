@@ -10,6 +10,9 @@ public class QueryProcessor {
         else if(query.toLowerCase().contains("nietzsche")){
             return "Nietzsche was a German philosopher, cultural critic, composer, poet, philologist, and scholar of Latin and Greek whose work has exerted a profound influence on modern intellectual history";
         }
+        else if(query.toLowerCase().contains("murakami")){
+            return "Haruki Murakami is a Japanese writer. His books and stories have been bestsellers in Japan as well as internationally, with his work being translated into 50 languages and selling millions of copies outside his native country.";
+        }
         return "";
     }
 }
